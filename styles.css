@@ -1,0 +1,166 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 50px 0 100px ;
+    
+}
+.group-one{
+    padding: 0 0 0 0px;
+}
+.group-two{
+    padding: 100px 150px 100px 100px ;
+}
+.card-one{
+    padding: 25px ;
+    border-radius: 15px;
+    background-image: url(images/bg-card-front.png);
+    width: 390px;
+    height: 190px;
+    background-repeat: no-repeat;
+    color:  hsl(270, 3%, 87%);
+    margin: 0 0 30px 0;
+    box-shadow:40px 40px 70px 0px rgba(18, 7, 29, 0.13) ;
+
+}
+.card-two{
+    width: 400px;
+    padding: 0 40px 0 0;
+    color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+     
+    background-image: url(images/bg-card-back.png);
+    background-repeat: no-repeat;
+    height: 240px;
+    box-shadow:40px 40px 70px 0px rgba(18, 7, 29, 0.13) ;
+}
+.class-cvc{
+    padding:0 0 0 100px ;
+}
+.class-one{
+    padding: 50px 0 0 0;
+}
+.class-two{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    letter-spacing: 2px;
+    opacity: 0.9;
+
+}
+.card-number p{
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 10px 0;
+}
+.cvc p{
+    padding: 110px  0 0 360px;
+    opacity: 0.6;
+}
+.form-fill{
+    display: flex;
+    justify-content: space-between; 
+    margin: 5px 0 0 0 ;
+}
+.dates{
+    display: flex;
+    margin: 0 15px 0 0;
+}
+#card-holder,#card-number{
+    width: 350px;
+    border: 1px solid hsl(270, 3%, 87%);
+    padding: 15px 9px;
+    color: hsl(278, 68%, 11%);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin: 5px 0 0 0;
+}
+input:focus{
+    outline: 2px solid hsl(278, 94%, 30%);
+    /* color: hsl(249, 99%, 64%) ; */
+    color: hsl(278, 68%, 11%);
+    font-weight: 700;
+}
+
+label{
+    color:hsl(278, 68%, 11%); 
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+::placeholder{
+    color:hsl(270, 3%, 87%);
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1px;
+}
+#month,#year{
+    width: 50px;
+    border: 1px solid hsl(270, 3%, 87%);
+    padding: 15px 9px;
+    color: hsl(278, 68%, 11%);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+#cvc{
+    border: 1px solid hsl(270, 3%, 87%);
+    padding: 15px 9px;
+    color: hsl(278, 68%, 11%);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    width: 185px ;
+}
+#month{
+    margin: 0 10px 0 0;
+    
+}
+.class-three, .class-four, .class-five, button{
+    margin: 25px 0 0 0;
+}
+.exp{
+    margin-right: 25px;
+}
+button{
+    background-color:hsl(278, 68%, 11%);
+    border-radius: 15px ;
+    font-family:  'Space Grotesk', sans-serif;
+    border: none;
+    font-weight: 600;                                   
+    font-size: 18px;    
+    width: 375px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;                                              
+    cursor: pointer;
+    color:hsl(0, 0%, 75%);
+    box-shadow:0 5px 1px 0 rgba(209, 209, 209, 0.226) ;
+}
+.attribution{
+    margin: 100px 0 0 0;
+}
+.completion{
+  text-align: center;
+
+}
+h2{
+    color: hsl(278, 68%, 11%);
+
+}
+.completion p{
+    color:  hsl(279, 6%, 55%);
+}
